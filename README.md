@@ -1,2 +1,3 @@
 # ddt
-Code for the Monte Carlo simulations in "The Directional Difference Test" by Charlie Holt, Daniel Kwiatkowski, and Sean Sullivan.
+
+This repository contains code for the Monte Carlo simulations in "The Directional Difference Test" by Charlie Holt, Daniel Kwiatkowski, and Sean Sullivan. All code is written in python using the multiprocessing package. "baseline.py" runs the baseline specification in the paper where there are three treatment groups and four observations per treatment group. The true treatment effect of moving from group 1 to group 2 is the same as the effect of moving from group 2 to group 3, and ranges from 0 to 100. "asymmetric_effects.py" examines the case where moving from group 1 to group 2 has a different true treatment effect than moving from group 2 to group 3. "more_groups.py" examines a case with four treatment groups and three observations per treatment group.
